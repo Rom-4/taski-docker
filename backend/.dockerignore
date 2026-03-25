@@ -1,0 +1,14 @@
+# Файл .dockerignore
+venv
+.git
+db.sqlite3
+
+# Файлы IDE (PyCharm)
+.idea
+
+# Секреты (обязательно!)
+.env
+
+# Кэш Python (чтобы не тащить скомпилированные файлы)
+__pycache__
+*.pyc
